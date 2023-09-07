@@ -3,8 +3,8 @@
 ## Criar e configurar o Ambiente
 
 Para dar inicio a este desafio, foi necessário contratar uma droplet na DigitalOcean e "subir" um ambiente de desenvolvimento do zero.
-O ambiente foi configurado com Apache, Mysql, Elasticsearch, Composer e Php 8.1 e então foi feito a instalação do Magento 2.4.5.
-No magento foi apenas realizado algumas configurações iniciais para que o mesmo pudesse funcionar normalmente.
+O ambiente foi configurado com Apache, Mysql, Elasticsearch, Composer e PHP 8.1 e então foi feito a instalação do Magento 2.4.5.
+No Magento foi apenas realizado algumas configurações iniciais para que o mesmo pudesse funcionar normalmente.
 
 ## Criando a homepage
 
@@ -20,7 +20,7 @@ Obs: as imagens foram retiradas do site da <a href="https://www.lojasrenner.com.
 
 ### Seção Como funciona
 
-Foi criado a estrutura html e feito os devidos ajustes por css para a visão desktop e mobile.
+Foi criado a estrutura HTML e feito os devidos ajustes por CSS para a visão desktop e mobile.
 
 Obs: os icones foram baixados do site <a href="https://www.flaticon.com/br/" target="_blank">Flaticon</a>.
 
@@ -83,7 +83,7 @@ Código:
 
 Os produtos, opções de cor, layout e exemplo de parcelamento foram retirados/usados de inspiração da loja <a href="https://www.lojasimporium.com.br/" target="_blank">Imporium</a>
 
-Obs: Tentei me aproximar o máximo possível do site que utilizei como referência. Foi necessário o uso do recurso nativo de lista de produtos do magento para exibir os produtos.
+Obs: Tentei me aproximar o máximo possível do site que utilizei como referência. Foi necessário o uso do recurso nativo de lista de produtos do Magento para exibir os produtos.
 
 Código:
 
@@ -175,9 +175,9 @@ Código:
 As imagens que foram retiradas da loja da Imporium vinham todas no formato webp ou jlif, então foi necessário realizar a conversão para png utilizando a ferramenta Gimp. 
 Tiveram imagens que, nesse processo de conversão, ficaram com o tamanho (bytes) muito elevado e tiveram que passar pelo <a href="https://tinypng.com" target="_blank">TinyPNG</a> para serem otimizados.
 
-Todas as seções da homepage (slider, seção como funciona, vitrine de produtos e seção de banners) encontram-se em **CONTEÚDO > ELEMENTOS > BLOCOS** com as suas devidas identificações. Na página home ficou apenas as chamadas dos blocos estáticos.
+Todas as seções da homepage (slider, seção como funciona, vitrine de produtos e seção de banners) encontram-se em **CONTEÚDO > ELEMENTOS > BLOCOS** com as suas devidas identificações. Na página home ficam apenas as chamadas dos blocos estáticos.
 
-As customizações CSS encontram-se em **CONTEÚDO > VISUAL > CONFIGURAÇÃO > DEFAULT STORE VIEW > CABEÇALHO HTML > SCRIPTS E FOLHAS DE ESTILO**, tenho ciência que este não é lugar ideal para inserir elementos CSS pois afeta diretamente o desempenho da loja.
+As customizações CSS encontram-se em **CONTEÚDO > VISUAL > CONFIGURAÇÃO > DEFAULT STORE VIEW > CABEÇALHO HTML > SCRIPTS E FOLHAS DE ESTILO**, tenho ciência de que este não é lugar ideal para inserir elementos CSS pois afeta diretamente o desempenho da loja.
 
 Customização CSS:
 
