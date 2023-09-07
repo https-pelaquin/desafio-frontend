@@ -175,9 +175,9 @@ Código:
 As imagens que foram retiradas da loja da Imporium vinham todas no formato webp ou jlif, então foi necessário realizar a conversão para png utilizando a ferramenta Gimp. 
 Tiveram imagens que, nesse processo de conversão, ficaram com o tamanho (bytes) muito elevado e tiveram que passar pelo <a href="https://tinypng.com" target="_blank">TinyPNG</a> para serem otimizados.
 
-Todas as seções da homepage (slider, seção como funciona, vitrine de produtos e seção de banners) encontram-se em *CONTEÚDO > ELEMENTOS > BLOCOS* com as suas devidas identificações. Na página home ficou apenas as chamadas dos blocos estáticos.
+Todas as seções da homepage (slider, seção como funciona, vitrine de produtos e seção de banners) encontram-se em **CONTEÚDO > ELEMENTOS > BLOCOS** com as suas devidas identificações. Na página home ficou apenas as chamadas dos blocos estáticos.
 
-As customizações CSS encontram-se em *CONTEÚDO > VISUAL > CONFIGURAÇÃO > DEFAULT STORE VIEW > CABEÇALHO HTML > SCRIPTS E FOLHAS DE ESTILO*, tenho ciência que este não é lugar ideal para inserir elementos CSS pois afeta diretamente o desempenho da loja.
+As customizações CSS encontram-se em **CONTEÚDO > VISUAL > CONFIGURAÇÃO > DEFAULT STORE VIEW > CABEÇALHO HTML > SCRIPTS E FOLHAS DE ESTILO**, tenho ciência que este não é lugar ideal para inserir elementos CSS pois afeta diretamente o desempenho da loja.
 
 Customização CSS:
 
