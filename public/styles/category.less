@@ -5,6 +5,30 @@ body.category-page {
 
         .sidebar {
             width: 20%;
+
+            .filter-container {
+                .filter-title {
+                    color: #ED1A39;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+
+                .filter-options {
+                    .filter-option-title {
+                        color: #1E2B50;
+                        font-size: 18px;
+                        margin-left: -20px;
+                        font-weight: 700;
+                    }
+
+                    .filter-option {
+                        cursor: pointer;
+                        margin-bottom: 10px;
+                        color: #626262;
+                        font-size: 16px;
+                    }
+                }
+            }
         }
 
         .product-grid {
@@ -64,5 +88,37 @@ body.category-page {
 
         }
     }
+}
 
+@media (max-width: 768px) {
+    body.category-page {
+        .main-content {
+            .product-grid {
+                .product-items {
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    body.category-page {
+        .main-content {
+            flex-direction: column;
+            
+            .sidebar {
+                width: 100%;
+                display: block;
+            }
+
+            .product-grid {
+                width: 100%;
+
+                .product-items {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        }
+    }
 }

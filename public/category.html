@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet/less" type="text/css" href="styles/main.less" />
-        <!-- <link rel="stylesheet" href="styles/main.css"> -->
 
         <script>
             less = {
@@ -19,23 +18,18 @@
         </script>
 
         <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
-
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
         <script src="js/main.js"></script>
         <script src="js/category.js"></script>
     </head>
     <body class="category-page">
         <div class="page-wrapper">
-
             <header class="header-wrapper">
-
                 <div class="top-header">
                     <div class="login-or-create">
                         <a href="#">Acesse sua conta</a>
                         <span>ou</span>
                         <a href="#">Cadastre-se</a>
-
                     </div>
                 </div>
 
@@ -50,7 +44,6 @@
                             <button class="search-button"
                                 type="button">BUSCAR</button>
                         </div>
-
                     </div>
                 </div>
 
@@ -62,24 +55,24 @@
             </header>
 
             <div class="main-content">
-
                 <div class="sidebar">
                     <div class="filter-container">
+                        <p class="filter-title">
+                            Filtrar por:
+                        </p>
 
+                        <ul class="filter-options" id="filter-options"></ul>
                     </div>
                 </div>
 
                 <div class="product-grid">
-                    <div class="product-items" id="product-items">
-
-                    </div>
+                    <div class="product-items" id="product-items"></div>
                 </div>
             </div>
 
             <footer>
                 <div class="footer-container"></div>
             </footer>
-
         </div>
     </body>
 </html>
