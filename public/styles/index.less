@@ -1,0 +1,89 @@
+body {
+    .page-wrapper {
+        .main-content {
+            .homepage-container {
+                display: flex;
+                gap: 20px;
+
+                .sidebar {
+                    width: 20%;
+                    background-color: #E2DEDC;
+
+                    .category-list {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        li {
+                            a {
+                                color: #000000;
+                                text-decoration: none;
+                                font-size: 18px;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+
+                .content {
+                    width: 80%;
+
+                    .banner {
+                        background-color: #ACACAC;
+                        height: 300px;
+                    }
+
+                    .title {
+                        font-size: 26px;
+                        color: #000000;
+                    }
+
+                    .text {
+                        font-size: 16px;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        .page-wrapper {
+            .main-content {
+                .sidebar {
+                    width: 25%;
+                }
+
+                .content {
+                    width: 75%;
+
+                    .banner {
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        .page-wrapper {
+            .main-content {
+                .sidebar {
+                    display: none;
+                }
+
+                .content {
+                    width: 100%;
+
+                    .banner {
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

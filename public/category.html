@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Desafio Frontend</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet/less" type="text/css" href="styles/main.less" />
+        <!-- <link rel="stylesheet" href="styles/main.css"> -->
+
+        <script>
+            less = {
+                env: 'development',
+                logLevel: 2,
+                async: false,
+                fileAsync: false,
+                cache: false
+            };
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="js/category.js"></script>
+    </head>
+    <body class="category-page">
+        <div class="page-wrapper">
+
+            <header class="header-wrapper">
+
+                <div class="top-header">
+                    <div class="login-or-create">
+                        <a href="#">Acesse sua conta</a>
+                        <span>ou</span>
+                        <a href="#">Cadastre-se</a>
+
+                    </div>
+                </div>
+
+                <div class="header-container">
+                    <div class="store-logo">
+                        <p class="text-logo"><span>FRONT</span>END</p>
+                    </div>
+
+                    <div class="search-wrapper">
+                        <div class="search-container">
+                            <input class="search-input" type="text" />
+                            <button class="search-button"
+                                type="button">BUSCAR</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <nav class="main-navigation">
+                    <ul class="navigation" id="megamenu">
+                        <li><a href="/">PÁGINA INICIAL</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="main-content">
+
+                <div class="sidebar">
+                    <div class="filter-container">
+
+                    </div>
+                </div>
+
+                <div class="product-grid">
+                    <div class="product-items" id="product-items">
+
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-container"></div>
+            </footer>
+
+        </div>
+    </body>
+</html>

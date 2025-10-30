@@ -1,0 +1,184 @@
+
+
+body {
+    font-family: 'open sans', sans-serif;
+    margin: 0;
+
+    .page-wrapper {
+        header.header-wrapper {
+            background-color: #fff;
+
+            .top-header {
+                background-color: #231F20;
+                width: 100%;
+                text-align: right;
+
+                .login-or-create {
+                    padding: 8px 20px;
+                    max-width: 1280px;
+                    margin: auto;
+
+                    a {
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        margin: 0 5px;
+                        font-size: 14px;
+                        font-weight: 600;
+                        text-decoration: underline;
+
+                    }
+
+                    span {
+                        color: #FFFFFF;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .header-container {
+                max-width: 1280px;
+                height: 80px;
+                margin: 0 auto;
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .store-logo {
+                    .text-logo {
+                        font-family: 'open sans extrabold', sans-serif;
+                        font-size: 34px;
+                        color: #1A1818;
+                        font-weight: 800;
+
+                        span {
+                            color: #E50019;
+                        }
+                    }
+                }
+
+                .search-wrapper {
+                    .search-container {
+                        display: flex;
+
+                        input.search-input {
+                            width: 400px;
+                            height: 38px;
+                            border: 1px solid #ccc;
+                            padding: 0 10px;
+                            font-size: 16px;
+                        }
+
+                        button.search-button {
+                            height: 40px;
+                            border: none;
+                            background-color: #CB0D1F;
+                            color: #fff;
+                            padding: 0 20px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            font-family: 'open sans extrabold', sans-serif;
+                            font-weight: 600;
+
+                            &:hover {
+                                background-color: #c40016;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .main-navigation {
+                background-color: #CB0D1F;
+
+                .navigation {
+                    padding: 0 20px;
+                    max-width: 1280px;
+                    margin: auto;
+                    list-style: none;
+                    display: flex;
+                    gap: 50px;
+
+                    li {
+                        display: block;
+
+                        a {
+                            color: #FFFFFF;
+                            font-weight: 700;
+                            text-decoration: none;
+                            padding: 12px;
+                            display: block;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        .page-wrapper {
+            header.header-wrapper {
+
+                .top-header {
+                    .login-or-create {
+
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .header-container {
+                    gap: 20px;
+
+                    .store-logo {
+                        .text-logo {
+                            font-size: 38px;
+                        }
+                    }
+
+                    .search-wrapper {
+                        width: 100%;
+
+                        .search-container {
+
+                            input.search-input {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+
+                .main-navigation {
+                    .navigation {
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        .page-wrapper {
+            header.header-wrapper {
+
+                .header-container {
+                    justify-content: center;
+
+                    .search-wrapper {
+                        display: none;
+                    }
+                }
+
+                .main-navigation {
+                    display: none;
+                }
+            }
+        }
+    }
+}
