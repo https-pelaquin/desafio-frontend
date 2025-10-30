@@ -18,7 +18,7 @@ $(document).ready(() => {
             data.items.forEach(category => {
                 const html = `
                     <li>
-                        <a href="/category?id=${category.id}">${category.name}</a>
+                        <a href="desafio-frontend/category?id=${category.id}">${category.name}</a>
                     </div>
                 `;
 
